@@ -40,9 +40,9 @@ Use `any` to disable this feature. Default value: `all`
 ## Installation
 
 ```bash
-git clone https://github.com/ExploitAvanzado/InfoPhone.git
-cd InfoPhone/
-python3 -m pip install -r requirements.txt
+git clone https://github.com/ExploitAvanzado/infoPhone.git
+cd infoPhone/
+pip install -r requirements.txt
 ```
 
 ## Usage
