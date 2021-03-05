@@ -40,15 +40,15 @@ Use `any` to disable this feature. Default value: `all`
 ## Installation
 
 ```bash
-git clone https://github.com/sundowndev/PhoneInfoga
-cd PhoneInfoga/
+git clone https://github.com/ExploitAvanzado/InfoPhone.git
+cd InfoPhone/
 python3 -m pip install -r requirements.txt
 ```
 
 ## Usage
 
 ```
-usage: phoneinfoga.py -n <number> [options]
+usage: info.py -n <number> [options]
 
 Advanced information gathering tool for phone numbers
 (https://github.com/sundowndev/PhoneInfoga)
@@ -71,19 +71,19 @@ optional arguments:
 Example (quotes are optional, use it when typing special formats) :
 
 ```
-python3 phoneinfoga.py -n "(+42)837544833"
+python3 info.py -n "(+42)837544833"
 ```
 
 Check for a number range on OVH :
 
 ```
-python3 phoneinfoga.py -n +42837544833 -s ovh
+python3 info.py -n +42837544833 -s ovh
 ```
 
 Check several numbers at once :
 
 ```
-python3 phoneinfoga.py -i numbers.txt -o results.txt
+python3 info.py -i numbers.txt -o results.txt
 ```
 
 **Note: `--osint` is not compatible with `--output` option.**
@@ -91,7 +91,7 @@ python3 phoneinfoga.py -i numbers.txt -o results.txt
 Use all scanners and run OSINT reconnaissance :
 
 ```
-python3 phoneinfoga.py -n +42837544833 -s all --osint
+python3 info.py -n +42837544833 -s all --osint
 ```
 
 ## Formatting
